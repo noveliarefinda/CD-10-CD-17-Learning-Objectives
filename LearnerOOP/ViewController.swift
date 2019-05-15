@@ -19,6 +19,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var
     learnerNameLabel: UILabel!
     
+    
+    
+    
     var learnerInstance: LearnerModel? // You just create copy of your LearnerModel
     
     
@@ -43,5 +46,17 @@ class ViewController: UIViewController {
             updateUI()
         }
     }
+    
+    
+    @IBOutlet weak var
+    ColorGW: UILabel!
+    @IBOutlet weak var
+    SpeedGW: UILabel!
+    @IBOutlet weak var
+    BrandNameGW: UILabel!
+    
+    
+    
+    
     
 }

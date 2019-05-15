@@ -13,6 +13,7 @@
 		80B61B76228BD85C00110DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B61B75228BD85C00110DDE /* Assets.xcassets */; };
 		80B61B79228BD85C00110DDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B61B77228BD85C00110DDE /* LaunchScreen.storyboard */; };
 		80B61B81228BE59700110DDE /* LearnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B61B80228BE59700110DDE /* LearnerModel.swift */; };
+		80B61B83228BF6B700110DDE /* GrabwheelsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B61B82228BF6B700110DDE /* GrabwheelsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		80B61B78228BD85C00110DDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80B61B7A228BD85C00110DDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80B61B80228BE59700110DDE /* LearnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerModel.swift; sourceTree = "<group>"; };
+		80B61B82228BF6B700110DDE /* GrabwheelsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrabwheelsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				80B61B77228BD85C00110DDE /* LaunchScreen.storyboard */,
 				80B61B7A228BD85C00110DDE /* Info.plist */,
 				80B61B80228BE59700110DDE /* LearnerModel.swift */,
+				80B61B82228BF6B700110DDE /* GrabwheelsModel.swift */,
 			);
 			path = LearnerOOP;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80B61B71228BD85900110DDE /* ViewController.swift in Sources */,
+				80B61B83228BF6B700110DDE /* GrabwheelsModel.swift in Sources */,
 				80B61B81228BE59700110DDE /* LearnerModel.swift in Sources */,
 				80B61B6F228BD85900110DDE /* AppDelegate.swift in Sources */,
 			);
