@@ -14,6 +14,7 @@
 		80B61B79228BD85C00110DDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B61B77228BD85C00110DDE /* LaunchScreen.storyboard */; };
 		80B61B81228BE59700110DDE /* LearnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B61B80228BE59700110DDE /* LearnerModel.swift */; };
 		80B61B83228BF6B700110DDE /* GrabwheelsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B61B82228BF6B700110DDE /* GrabwheelsModel.swift */; };
+		80B61B85228C030B00110DDE /* Facilitator Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B61B84228C030B00110DDE /* Facilitator Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		80B61B7A228BD85C00110DDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80B61B80228BE59700110DDE /* LearnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerModel.swift; sourceTree = "<group>"; };
 		80B61B82228BF6B700110DDE /* GrabwheelsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrabwheelsModel.swift; sourceTree = "<group>"; };
+		80B61B84228C030B00110DDE /* Facilitator Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Facilitator Models.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				80B61B7A228BD85C00110DDE /* Info.plist */,
 				80B61B80228BE59700110DDE /* LearnerModel.swift */,
 				80B61B82228BF6B700110DDE /* GrabwheelsModel.swift */,
+				80B61B84228C030B00110DDE /* Facilitator Models.swift */,
 			);
 			path = LearnerOOP;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B61B85228C030B00110DDE /* Facilitator Models.swift in Sources */,
 				80B61B71228BD85900110DDE /* ViewController.swift in Sources */,
 				80B61B83228BF6B700110DDE /* GrabwheelsModel.swift in Sources */,
 				80B61B81228BE59700110DDE /* LearnerModel.swift in Sources */,

@@ -23,16 +23,18 @@ class ViewController: UIViewController {
     
     
     var learnerInstance: LearnerModel? // You just create copy of your LearnerModel
-    
+    var facilitatorInstance : facilitatorModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         learnerInstance = LearnerModel(nameLearner: "Novelia", ageLearner: 20, genderLearner: "Female", imageProfileLearner: "")
         updateUI()
+        facilitatorInstance = facilitatorModel(facilName: "Yos", facilAge: 21, facilGender: "Male", facilImageProfile: "", facilPerk: "Unlimited Starbucks on Friday")
         }
     
+    
     func updateUI() {
-        if let instance = learnerInstance { learnerNameLabel.text = instance.name
+        if let instance = facilitatorInstance { learnerNameLabel.text = instance.name
         learnerAgeLabel.text = "\(instance.age)"
         learnerGenderLabel.text = instance.gender
 
@@ -42,21 +44,17 @@ class ViewController: UIViewController {
     
 }
     @IBAction func increaseAgeTapped(_ sender: UIButton) {
-        if let instance = learnerInstance { instance.increaseAge()
+        if let instance = facilitatorInstance {
+            instance.increaseAge()
+            instance.coachMentee()
             updateUI()
         }
+        
+        
+        
     }
     
     
-    @IBOutlet weak var
-    ColorGW: UILabel!
-    @IBOutlet weak var
-    SpeedGW: UILabel!
-    @IBOutlet weak var
-    BrandNameGW: UILabel!
-    
-    
-    
-    
+   
     
 }
