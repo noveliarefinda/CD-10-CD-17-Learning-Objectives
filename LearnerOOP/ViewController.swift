@@ -28,8 +28,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         learnerInstance = LearnerModel(nameLearner: "Novelia", ageLearner: 20, genderLearner: "Female", imageProfileLearner: "")
-        updateUI()
+        
         facilitatorInstance = facilitatorModel(facilName: "Yos", facilAge: 21, facilGender: "Male", facilImageProfile: "", facilPerk: "Unlimited Starbucks on Friday")
+        updateUI()
         }
     
     
