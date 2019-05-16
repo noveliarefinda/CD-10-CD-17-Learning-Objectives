@@ -80,6 +80,9 @@ class ViewController: UIViewController {
     }
     
     
-   
+    @IBAction func segueButton(_ sender: UIButton) {
+        performSegue(withIdentifier: "secondSegue", sender: self)
+    }
+    
     
 }
